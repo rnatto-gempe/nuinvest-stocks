@@ -59,13 +59,15 @@ h1 {
 }
 
 /* Stocks page */
-#myChart {
-  width: 33%;
-  height: auto;
+.chart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+#myChart, #myChart2 {
+  max-height: 600px;
+  max-width: 350px;
   margin: auto;
-
-  min-height: 350px;
-  min-width: 350px;
 }
 
 #stocks {
